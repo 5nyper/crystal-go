@@ -1,6 +1,9 @@
 # Go
 
-TODO: Write a description here for library
+Go concurrency idioms in Crystal.
+Currently implemented features:
+	* Ticker
+	* Range function
 
 ## Installation
 
