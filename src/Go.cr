@@ -1,9 +1,7 @@
 require "./Go/*"
 
 module Go
-	extend self
-	
-	def range(ch, &block)
+	def Go.range(ch, &block)
 		while true
 			begin
 				yield ch.receive
