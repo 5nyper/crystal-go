@@ -13,10 +13,11 @@ module Go
 	end
 	
 	class Ticker
+		@delay :: Int32
 		getter delay
 		getter ch
 
-		def initialize(@delay)
+		def initialize(@delay: Int32)
 			@ch = Channel(Time).new
 
 			spawn {
@@ -40,3 +41,4 @@ module Go
 		end
 	end
 end
+
