@@ -1,6 +1,8 @@
 require "./Go/*"
 
 module Go
+	extend self
+	
 	def range(ch, &block)
 		while true
 			begin
