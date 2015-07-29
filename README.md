@@ -11,14 +11,14 @@ Add it to `Projectfile`
 
 ```crystal
 deps do
-  github "[your-github-name]/Go"
+  github "JoeDRL/crystal-go"
 end
 ```
 
 ## Usage
 
 ```crystal
-require "Go"
+require "crystal-go"
 ```
 
 TODO: Write usage here for library
